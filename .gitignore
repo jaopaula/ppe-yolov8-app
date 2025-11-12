@@ -1,0 +1,71 @@
+###############################
+# PYTHON BASICS
+###############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+###############################
+# LOGS
+###############################
+*.log
+logs/
+*.tmp
+
+###############################
+# VIRTUAL ENVIRONMENTS
+###############################
+.venv/
+venv/
+env/
+ENV/
+.env/
+*.env
+
+###############################
+# EDITORS / IDE CONFIG
+###############################
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+###############################
+# SYSTEM FILES
+###############################
+.DS_Store
+Thumbs.db
+
+###############################
+# ULTRALYTICS / YOLO OUTPUTS
+###############################
+runs/
+ultralytics/
+
+###############################
+# LARGE FILES / WEIGHTS
+###############################
+# Pesos YOLO (sempre manter fora do GitHub)
+models/*.pt
+models/*.onnx
+models/*.engine
+models/*.trt
+
+###############################
+# DATASETS (não versionar)
+###############################
+data/
+datasets/
+
+###############################
+# NOTEBOOK CHECKPOINTS
+###############################
+.ipynb_checkpoints/
+
+###############################
+# CACHE / TEMP
+###############################
+*.cache
+.cache/
+__cache__/
